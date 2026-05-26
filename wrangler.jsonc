@@ -1,0 +1,20 @@
+{
+  "main": ".open-next/worker.js",
+  "name": "outerbase-studio",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "kv_namespaces": [
+    {
+      "binding": "NEXT_CACHE_WORKERS_KV",
+      "id": "9657cd35e35b4fb3b81f59f1f698936d"
+    }
+  ]
+}
